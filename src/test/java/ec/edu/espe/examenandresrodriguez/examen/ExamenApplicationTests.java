@@ -1,10 +1,10 @@
-package ec.edu.espe.arquitectura.facturacion;
+package ec.edu.espe.examenandresrodriguez.examen;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FacturacionApplicationTests {
+class ExamenApplicationTests {
 
 	@Test
 	void contextLoads() {

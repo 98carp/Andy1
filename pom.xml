@@ -8,10 +8,10 @@
 		<version>3.1.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>ec.edu.espe.arquitectura</groupId>
-	<artifactId>facturacion</artifactId>
+	<groupId>ec.edu.espe.examenandresrodriguez</groupId>
+	<artifactId>examen</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>facturacion</name>
+	<name>examen</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -33,17 +33,16 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
+			<groupId>org.mariadb.jdbc</groupId>
+			<artifactId>mariadb-java-client</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	
-   <dependency>
-     <groupId>org.apache.commons</groupId>
-     <artifactId>commons-math3</artifactId>
-     <version>3.6.1</version>
-   </dependency>
- </dependencies>
+	</dependencies>
 
 	<build>
 		<plugins>

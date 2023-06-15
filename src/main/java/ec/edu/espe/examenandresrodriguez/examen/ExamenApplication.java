@@ -1,13 +1,13 @@
-package ec.edu.espe.arquitectura.facturacion;
+package ec.edu.espe.examenandresrodriguez.examen;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FacturacionApplication {
+public class ExamenApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FacturacionApplication.class, args);
+		SpringApplication.run(ExamenApplication.class, args);
 	}
 
 }
